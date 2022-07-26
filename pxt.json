@@ -1,0 +1,25 @@
+{
+    "name": "test-gps-jacdac",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "microphone": "*",
+        "jacdac-gyroscope": "github:microsoft/pxt-jacdac/gyroscope#v1.8.16",
+        "jacdac-accelerometer": "github:microsoft/pxt-jacdac/accelerometer#v1.8.16"
+    },
+    "files": [
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "5.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
